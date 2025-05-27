@@ -1,0 +1,8 @@
+Part,Description,Price,Quantity,Shipping,Total Price,Purchase Link,Datasheet Link
+CD4044BE,Quad NAND R/S Latch,$0.52,1,,$0.52,https://www.digikey.com/en/products/detail/texas-instruments/CD4044BE/67293,https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fcd4043b
+74HC161,4-bit Binary Counter,$0.72,5,,$3.60,https://www.digikey.com/en/products/detail/texas-instruments/SN74HC161N/376952,https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74hc161
+74HC173,Quad D Flip-Flop,$0.88,2,,$1.76,https://www.digikey.com/en/products/detail/texas-instruments/CD74HC173E/1506733,https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fcd74hc173
+74HC04,Hex Inverter,$0.25,4,,$1.00,https://www.digikey.com/en/products/detail/toshiba-semiconductor-and-storage/TC74HC04APF/870457,https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/889/TC74HC04.pdf
+74HCT245,Octal Bus Transceivers,$0.78,6,,$4.68,https://www.digikey.com/en/products/detail/texas-instruments/SN74HCT245N/277258,https://www.ti.com/lit/ds/symlink/sn74hct245.pdf
+74HC08,Quad Two-Input AND Gate,$0.26,2,,$0.52,https://www.digikey.com/en/products/detail/toshiba-semiconductor-and-storage/TC74HC08APF/870461,
+74HC32,Quad Two-Input OR Gate,$0.55,2,,$1.10,https://www.digikey.com/en/products/detail/texas-instruments/SN74HC32N/277235,https://www.ti.com/lit/ds/symlink/sn54hc32-sp.pdf
