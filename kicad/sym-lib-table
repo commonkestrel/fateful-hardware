@@ -3,4 +3,5 @@
   (lib (name "2025-05-27_19-54-42")(type "KiCad")(uri "/home/kestrel/Documents/Scripts/fateful-hardware/schematics/2025-05-27_19-54-42.kicad_sym")(options "")(descr ""))
   (lib (name "CAT28C16AL")(type "KiCad")(uri "/home/kestrel/Documents/Scripts/fateful-hardware/schematics/CAT28C16AL.kicad_sym")(options "")(descr ""))
   (lib (name "W27C512")(type "KiCad")(uri "/home/kestrel/Documents/Scripts/fateful-hardware/schematics/W27C512.kicad_sym")(options "")(descr ""))
+  (lib (name "AT29C512")(type "KiCad")(uri "D:/Scripts/fateful-hardware/schematics/AT29C512.kicad_sym")(options "")(descr ""))
 )

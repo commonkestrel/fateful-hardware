@@ -47,4 +47,34 @@ so without those it would be quite a bit more expensive.
 
 ## May 27, 2025 
 
+I did lots of work today on getting the control circuit actually implemented in a schematic! 
+This involved a couple tweaks to the number of parts and which parts were used.
+I realized that the W27C512 EEPROM, which I decided on yesterday,
+required some weird voltages (14V, 12V, 2.5V) for programming,
+which would make it very difficult to use.
+Instead, I settled on the Atmel AT29C512 (I LOVE YOU ATMEL) for its focus on having purely 5V logic and control (and easier programming).
 
+The first step to getting the control circuit implemented was to sketch the program counter:
+
+![program counter schematic](./images/pc.png)
+
+The program counter is what determines what byte of the program the control circuit is pointing to.
+This is incremented at the end of every instruction's execution in order to load the next instruction,
+as well as during certain instructions to load registers and addresses.
+
+After this was implemented, I started work on the actual control circuit.
+This involved some research into KiCAD's heirarchical pins,
+since this was my first time using the program :3
+
+![unfinished control schematic](./images/unfinished-control-schematic.png)
+
+As you can tell by the many unconnected pins,
+the control circuit is not quite finished.
+Most of the progress today came from learning how busses work,
+as well as linking the program counter and program Flash storage,
+and finally adding the octal buffers to enable loading from the program memory.
+
+For next steps, I'd love to implement the instruction counter,
+since there was some weird clock pulse delay functionality that made it a bit of a pain to implement. After the control circuit is fully implemented, I'm tackling the register bank next!
+
+**Total time spent: 8h**
