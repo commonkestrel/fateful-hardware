@@ -1,9 +1,9 @@
- ---
+---
 title: "Fateful"
 author: "@kestrel"
 description: "A fully custom 8-bit CPU with its own assembly language, emulator, and upcoming hardware implementation!"
 created_at: "2025-05-27"
- ---
+---
 
 # Fateful Journal
 
