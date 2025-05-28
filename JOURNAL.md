@@ -11,11 +11,11 @@ This is the journal for the hardware version of [fateful](https://github.com/com
 
 ## May 26, 2025
 
-I worked on putting together a BOM for the control circuit!
+Today I worked on putting together a BOM for the control circuit!
 While I already wired it up in Logisim Evolution forever ago,
 a lot of these circuits don't quite map properly to real-world components. 
 
-![logisim implementation of the control circuit](./control.png)
+![logisim implementation of the control circuit](./images/control.png)
 
 This is mostly so I know what components to use when making the actual circuit later down the line.
 Something that turned out really nice is that the program counter can be entirely isolated on it's own circuit,
@@ -44,3 +44,7 @@ Keep in mind though that I already have the EEPROM's on hand,
 so without those it would be quite a bit more expensive.
 
 **Total time spent: 4h**
+
+## May 27, 2025 
+
+

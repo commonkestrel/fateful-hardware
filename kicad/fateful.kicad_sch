@@ -1,0 +1,51 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "72e0a1c8-bb50-4af4-9467-419706ca133d")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 13.97 116.84)
+		(size 123.19 78.74)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ad980ff2-a0ed-45b7-ae2b-11696e537f31")
+		(property "Sheetname" "Control"
+			(at 13.97 116.1284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "control.kicad_sch"
+			(at 13.97 196.1646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "fateful"
+				(path "/72e0a1c8-bb50-4af4-9467-419706ca133d"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
